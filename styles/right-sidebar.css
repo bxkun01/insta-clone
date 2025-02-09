@@ -54,4 +54,12 @@
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
+    margin-bottom: 15px;
+   
 }
+
+.suggested-accounts-container{
+    display: flex;
+}
+
+
