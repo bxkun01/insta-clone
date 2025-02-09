@@ -1,0 +1,57 @@
+.right-sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 545px;
+    width:300px;
+    border:2px solid black;
+    font-size: 12px;
+}
+
+.account{
+    display: flex;
+    align-items: space-around;
+    column-gap: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+.profile-name{
+    font-size: 14px;
+    position: relative;
+}
+
+.name-username{ 
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    color:rgb(182, 180, 180);
+}
+
+.username{
+    font-weight: bolder;
+}
+
+.switch-button{
+    position: absolute;
+    right:-90px;
+    top:16px;
+    border-style: none;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    color: rgb(0, 149, 246);
+    transition: color 0.15s;
+}
+
+.switch-button:hover{
+    color: rgb(0,55,107);
+ 
+}
+
+.suggested-accounts-text{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
