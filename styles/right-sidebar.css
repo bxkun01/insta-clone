@@ -3,23 +3,35 @@
     flex-direction: column;
     height: 545px;
     width:300px;
-    border:2px solid black;
     font-size: 12px;
+    z-index: 100;
 }
 
 .account{
     display: flex;
-    align-items: space-around;
     column-gap: 10px;
     margin-bottom: 20px;
+}
+
+
+.suggested-accounts-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px; 
+}
+    
+.suggested-accounts-container{
+    flex-direction: column;
+}
+
+.profile-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
     
 
-}
-
-.profile-name{
-    font-size: 14px;
-    position: relative;
-}
 
 .name-username{ 
     display: flex;
@@ -33,10 +45,7 @@
     font-weight: bolder;
 }
 
-.switch-button{
-    position: absolute;
-    right:-90px;
-    top:16px;
+.switch-button {
     border-style: none;
     background-color: white;
     font-weight: bolder;
@@ -44,6 +53,7 @@
     color: rgb(0, 149, 246);
     transition: color 0.15s;
 }
+
 
 .switch-button:hover{
     color: rgb(0,55,107);
@@ -55,11 +65,15 @@
     justify-content: space-between;
     font-weight: bolder;
     margin-bottom: 15px;
-   
+    margin-right:5px;
 }
 
-.suggested-accounts-container{
+.suggested-user {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap:10px;
 }
 
 

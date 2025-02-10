@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .profile-card-container{
+        width:368px;
+        height: 295px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        row-gap: 16px;
+        box-shadow: 0px 0px 4px grey;
+    }
+
+    .profile{
+        display: flex;
+        gap:10px;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .profile img{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: contain;
+        border: 1px solid rgb(182, 180, 180);
+
+    }
+    .identity{
+        display: flex;
+        flex-direction: column;
+    }
+    .username{
+        font-weight: bolder;
+    }
+    .name{
+        color: grey;
+
+    }
+
+    .numbers_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .following-followers, .following-followers-numbers{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .following-followers-numbers{
+        font-weight: bold;
+    }
+    .users-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 368px;
+    }
+
+    .users-content img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .follow{
+        width:334px;
+        height: 34px;
+        border: none;
+        background-color: #1877f2;
+        color: white;
+        font-weight: bolder;
+        border-radius: 8px;
+        
+    }
+    .follow:hover{
+        background-color: #026bf4;
+    }
+
+    .follow-container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+</style>    
+<body>
+    <div class="profile-card-container">
+       <div class="profile">
+            <img src="users/fm.jpg">
+            <div class="identity">
+                <span class="username">xin ci</span>
+                <span class="name">zen</span>
+            </div>
+       </div>
+
+       <div class="numbers_container">
+            <div class="following-followers-numbers"> 
+                <span>9</span>
+                <span>116</span>
+                <span>146</span>
+            </div>
+            <div class="following-followers">
+                <span>posts</span>
+                <span>followers</span>
+                <span>following</span>
+            </div>
+       </div>
+
+       <div class="users-content">
+            <img src="users/fm.jpg">
+            <img src="users/fm.jpg">
+            <img src="users/fm.jpg">
+       </div>
+       <div class="follow-container">
+        <button class="follow">Follow</button>
+       </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+.stories-container{
+    position: absolute;
+    top:0;
+    right:0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.stories{
+    width: 56px;
+    height:56px;
+    object-fit: cover;
+    border-radius: 28px;
+}

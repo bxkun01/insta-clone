@@ -4,11 +4,34 @@
     bottom: 0;
     border-right: 1px solid rgb(182, 180, 180);
     width: 244px;
-    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
     
 }
 
 .side-bar-last {
     position: fixed;
     bottom: 0;
+    width:244px;
+}
+
+
+.tooltip{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.tooltip:hover{
+    background-color: rgba(128, 128, 128,0.1);
+
+}
+
+    
+.tooltip img{
+    width: 25px;
+    margin-right: 10px;
 }
