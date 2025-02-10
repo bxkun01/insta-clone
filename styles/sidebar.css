@@ -35,3 +35,17 @@
     width: 25px;
     margin-right: 10px;
 }
+
+.instagram-logo{
+    position: top;
+    display: flex;
+    width: 220px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 16px;
+                                                                                                                                                                                                                        }
+.insta-logo{
+    width: 103px;   
+    cursor: pointer;                                                                                                                                                                                                                                                                                        
+
+}
