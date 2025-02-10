@@ -1,250 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram</title>
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/right-sidebar.css">
-    <link rel="stylesheet" href="styles/flex.css">
-    <link rel="stylesheet" href="styles/stories.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/right-sidebar.css" />
+    <link rel="stylesheet" href="styles/flex.css" />
+    <link rel="stylesheet" href="styles/stories.css" />
+  </head>
+  <body>
     <div class="flex">
-    <nav class="side-bar">
+      <nav class="side-bar">
         <div class="instagram-logo">
-            <img  class="insta-logo"src="icons/Instagram_logo.svg">
+          <img class="insta-logo" src="icons/Instagram_logo.svg" />
         </div>
 
         <div class="tooltip">
-            <img src="icons/home.png">
-            <p>Home</p>
-        </div>  
-        
-        <div class="tooltip">
-            <img src="icons/search.png">
-            <p>Search</p>
+          <img src="icons/home.png" />
+          <p>Home</p>
         </div>
 
         <div class="tooltip">
-            <img src="icons/social.png">
-            <p>Explore</p>
-        </div>
-        
-        <div class="tooltip">
-            <img src="icons/video.png">
-            <p>Reels</p>
+          <img src="icons/search.png" />
+          <p>Search</p>
         </div>
 
         <div class="tooltip">
-            <img src="icons/chat.png">
-            <p>Message</p>
+          <img src="icons/social.png" />
+          <p>Explore</p>
         </div>
 
         <div class="tooltip">
-            <img src="icons/notifications.png">
-            <p>Notifications</p>
+          <img src="icons/video.png" />
+          <p>Reels</p>
         </div>
 
         <div class="tooltip">
-            <img src="icons/more.png">
-            <p>Create</p>
+          <img src="icons/chat.png" />
+          <p>Message</p>
         </div>
 
+        <div class="tooltip">
+          <img src="icons/notifications.png" />
+          <p>Notifications</p>
+        </div>
+
+        <div class="tooltip">
+          <img src="icons/more.png" />
+          <p>Create</p>
+        </div>
 
         <div class="side-bar-last">
-            <div class="tooltip">
-                <img src="icons/thread.png">
-                <p>Threads</p>
-            </div>
-            <div class="tooltip">
-                <img src="icons/menu.png">
-                <p>More</p>
-            </div> 
+          <div class="tooltip">
+            <img src="icons/thread.png" />
+            <p>Threads</p>
+          </div>
+          <div class="tooltip">
+            <img src="icons/menu.png" />
+            <p>More</p>
+          </div>
         </div>
-    </nav>
-    <nav class="stories-container">
-        <img class="stories"src="users/fm.jpg">
-        <img class="stories"src="users/image.png">
-
-    </nav>
-    <div class="flex">
-    <main class="main">
-        <div class="posts">
+      </nav>
+      <nav class="stories-container">
+        <div class="stories-flex">
+            <img class="stories" src="users/fm.jpg" />
+            <span>xin ci</span>
+        </div>
+        <div class="stories-flex">
+            <img class="stories" src="users/image.png" />
+            <span>Yumi</span>
+        </div>
+        
+      </nav>
+      <div class="flex">
+        <main class="main">
+          <div class="posts">
             <div class="user-info">
-                <img class="profile-picture" src="users/_.jpeg" alt="User Profile">
-                <div class="user-details">
-                    <div class="post-header">
-                        <div>dem_venereable_aedan &#8226; <span class="posted-time">2w</span> &#8226; <a class="follow-link" href="#">Follow</a></div>
-                        <div>Original audio</div>
-                    </div>
-                    <div class="menu-icon">&#8226;&#8226;&#8226;</div>
+              <img
+                class="profile-picture"
+                src="users/_.jpeg"
+                alt="User Profile"
+              />
+              <div class="user-details">
+                <div class="post-header">
+                  <div>
+                    dem_venereable_aedan &#8226;
+                    <span class="posted-time">2w</span> &#8226;
+                    <a class="follow-link" href="#">Follow</a>
+                  </div>
+                  <div>Original audio</div>
                 </div>
+                <div class="menu-icon">&#8226;&#8226;&#8226;</div>
+              </div>
             </div>
 
             <div class="post">
-                <img src="users/_ (1).jpeg" alt="Post Image">
+              <img src="users/_ (1).jpeg" alt="Post Image" />
             </div>
 
             <div class="post-footer">
-                <div class="buttons-container">
-                    <div class="buttons">
-                        <img class="heart"src="icons/heart.png">
-                        <img src="icons/comment.png">
-                        <img src="icons/send.png">
-                    </div>
-                    <img class="bookmark"src="icons/bookmark.png">
+              <div class="buttons-container">
+                <div class="buttons">
+                  <img class="heart" src="icons/heart.png" />
+                  <img src="icons/comment.png" />
+                  <img src="icons/send.png" />
                 </div>
+                <img class="bookmark" src="icons/bookmark.png" />
+              </div>
 
-                <div class="likes">666 likes</div>
-                <div class="caption"><span class="user-account-link">aedan</span> I like the footless bird</div>
-                <div class="view-comment">View all 100 comments</div>
-                
-                <div class="post-comments">
-                    <input class="add-comment" placeholder="Add a comment...">
-                    <button class="post-button">Post</button>
-                </div>
-                    
+              <div class="likes">666 likes</div>
+              <div class="caption">
+                <span class="user-account-link">aedan</span> I like the footless
+                bird
+              </div>
+              <div class="view-comment">View all 100 comments</div>
+
+              <div class="post-comments">
+                <input class="add-comment" placeholder="Add a comment..." />
+                <button class="post-button">Post</button>
+              </div>
             </div>
+          </div>
 
-        </div>
-
-        <div class="posts">
+          <div class="posts">
             <div class="user-info">
-                <img class="profile-picture" src="users/_.jpeg" alt="User Profile">
-                <div class="user-details">
-                    <div class="post-header">
-                        <div>Aedan Everhart &#8226; <span class="posted-time">2w</span> &#8226; <a class="follow-link" href="#">Follow</a></div>
-                        <div>Original audio</div>
-                    </div>
-                    <div class="menu-icon">&#8226;&#8226;&#8226;</div>
+              <img
+                class="profile-picture"
+                src="users/_.jpeg"
+                alt="User Profile"
+              />
+              <div class="user-details">
+                <div class="post-header">
+                  <div>
+                    Aedan Everhart &#8226;
+                    <span class="posted-time">2w</span> &#8226;
+                    <a class="follow-link" href="#">Follow</a>
+                  </div>
+                  <div>Original audio</div>
                 </div>
+                <div class="menu-icon">&#8226;&#8226;&#8226;</div>
+              </div>
             </div>
 
             <div class="post">
-                <img src="users/_ (1).jpeg" alt="Post Image">
+              <img src="users/_ (1).jpeg" alt="Post Image" />
             </div>
 
             <div class="post-footer">
-                <div class="buttons-container">
-                    <div class="buttons">
-                        <img src="icons/heart.png">
-                        <img src="icons/comment.png">
-                        <img src="icons/send.png">
-                    </div>
-                    <img class="bookmark"src="icons/bookmark.png">
+              <div class="buttons-container">
+                <div class="buttons">
+                  <img src="icons/heart.png" />
+                  <img src="icons/comment.png" />
+                  <img src="icons/send.png" />
                 </div>
+                <img class="bookmark" src="icons/bookmark.png" />
+              </div>
 
-                <div class="likes">666 likes</div>
-                <div class="caption"><span class="user-account-link">aedan</span> I like the footless bird</div>
-                <div class="view-comment">View all 100 comments</div>
-                
-                <div class="post-comments">
-                    <input class="add-comment" placeholder="Add a comment...">
-                    <button class="post-button">Post</button>
-                </div>
-                    
+              <div class="likes">666 likes</div>
+              <div class="caption">
+                <span class="user-account-link">aedan</span> I like the footless
+                bird
+              </div>
+              <div class="view-comment">View all 100 comments</div>
+
+              <div class="post-comments">
+                <input class="add-comment" placeholder="Add a comment..." />
+                <button class="post-button">Post</button>
+              </div>
             </div>
+          </div>
 
-        </div>
-
-
-        <div class="posts">
+          <div class="posts">
             <div class="user-info">
-                <img class="profile-picture" src="users/fm.jpg" alt="User Profile">
-                <div class="user-details">
-                    <div class="post-header">
-                        <div>xin_ci &#8226; <span class="posted-time">2w</span> &#8226; <a class="follow-link" href="#">Follow</a></div>
-                        <div>Original audio</div>
-                    </div>
-                    <div class="menu-icon">&#8226;&#8226;&#8226;</div>
+              <img
+                class="profile-picture"
+                src="users/fm.jpg"
+                alt="User Profile"
+              />
+              <div class="user-details">
+                <div class="post-header">
+                  <div>
+                    xin_ci &#8226; <span class="posted-time">2w</span> &#8226;
+                    <a class="follow-link" href="#">Follow</a>
+                  </div>
+                  <div>Original audio</div>
                 </div>
+                <div class="menu-icon">&#8226;&#8226;&#8226;</div>
+              </div>
             </div>
 
             <div class="post">
-                <img src="users/fm.jpg" alt="Post Image">
+              <img src="users/fm.jpg" alt="Post Image" />
             </div>
 
             <div class="post-footer">
-                <div class="buttons-container">
-                    <div class="buttons">
-                        <img src="icons/heart.png">
-                        <img src="icons/comment.png">
-                        <img src="icons/send.png">
-                    </div>
-                    <img class="bookmark"src="icons/bookmark.png">
+              <div class="buttons-container">
+                <div class="buttons">
+                  <img src="icons/heart.png" />
+                  <img src="icons/comment.png" />
+                  <img src="icons/send.png" />
                 </div>
+                <img class="bookmark" src="icons/bookmark.png" />
+              </div>
 
-                <div class="likes">1M likes</div>
-                <div class="caption"><span class="user-account-link">aedan</span> Absolute change!</div>
-                <div class="view-comment">View all 10,000 comments</div>
-                
-                <div class="post-comments">
-                    <input class="add-comment" placeholder="Add a comment...">
-                    <button class="post-button">Post</button>
-                </div>
-                    
+              <div class="likes">1M likes</div>
+              <div class="caption">
+                <span class="user-account-link">aedan</span> Absolute change!
+              </div>
+              <div class="view-comment">View all 10,000 comments</div>
+
+              <div class="post-comments">
+                <input class="add-comment" placeholder="Add a comment..." />
+                <button class="post-button">Post</button>
+              </div>
             </div>
-
-        </div>
-    </main>
-    <nav class="right-sidebar">
-        <div class="account">
+          </div>
+        </main>
+        <nav class="right-sidebar">
+          <div class="account">
             <div>
-                <img  class="profile-picture" src="users/_.jpeg" alt="User Profile">
+              <img
+                class="profile-picture"
+                src="users/_.jpeg"
+                alt="User Profile"
+              />
             </div>
 
             <div class="profile-name">
-                <div class="name-username">
-                    <span class="username">dem_venereable_aedan</span>
-                    <span class="name">Bxkun</span>
-                </div>
-                <button class="switch-button">Switch</button>
+              <div class="name-username">
+                <span class="username">dem_venereable_aedan</span>
+                <span class="name">Bxkun</span>
+              </div>
+              <button class="switch-button">Switch</button>
             </div>
-        </div>
-    
-        <div class="suggested-accounts-text">
+          </div>
+
+          <div class="suggested-accounts-text">
             <span>Suggested for you</span>
             <span>See All</span>
-        </div>
+          </div>
 
-        <div class="suggested-accounts-container">
+          <div class="suggested-accounts-container">
             <div class="suggested-user">
-                <div>
-                    <img  class="profile-picture" src="users/fm.jpg" alt="User Profile">
+              <div>
+                <img
+                  class="profile-picture"
+                  src="users/fm.jpg"
+                  alt="User Profile"
+                />
+              </div>
+              <div class="profile-name">
+                <div class="name-username">
+                  <span class="username">Ryomi</span>
+                  <span class="name">Followed by reina</span>
                 </div>
-                <div class="profile-name">
-                    <div class="name-username">
-                        <span class="username">Ryomi</span>
-                        <span class="name">Followed by reina</span>
-                    </div>
-                    <button class="switch-button">Follow</button>
-                </div>
+                <button class="switch-button">Follow</button>
+              </div>
             </div>
 
             <div class="suggested-user">
-                <div>
-                    <img  class="profile-picture" src="users/image.png" alt="User Profile">
+              <div>
+                <img
+                  class="profile-picture"
+                  src="users/image.png"
+                  alt="User Profile"
+                />
+              </div>
+              <div class="profile-name">
+                <div class="name-username">
+                  <span class="username">Rei</span>
+                  <span class="name">Followed by reina</span>
                 </div>
-                <div class="profile-name">
-                    <div class="name-username">
-                        <span class="username">Rei</span>
-                        <span class="name">Followed by reina</span>
-                    </div>
-                    <button class="switch-button">Follow</button>
-                </div>
+                <button class="switch-button">Follow</button>
+              </div>
             </div>
-            
-        </div>
-
-        
-
-    </nav>
-</div>
-
-   
-</div>
-</body>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </body>
 </html>

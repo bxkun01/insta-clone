@@ -2,10 +2,12 @@
     position: absolute;
     top:0;
     right:0;
-    left: 0;
-
+    left: 280px;
     display: flex;
-    justify-content: center;
+    gap:15px;
+    padding-top: 20px;
+    padding-left: 10px;
+
 }
 
 .stories{
@@ -13,4 +15,18 @@
     height:56px;
     object-fit: cover;
     border-radius: 28px;
+    border: 1px solid  rgb(182, 180, 180);
+
+}
+
+.stories-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color:grey;
+    font-weight: bold;
+    
+
 }
